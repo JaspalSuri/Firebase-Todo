@@ -40,10 +40,8 @@
 		F8CD9C2F2211ECFA00271E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8CD9C322211ECFA00271E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CD9C342211ECFA00271E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8CD9C3A2211ED0D00271E1F /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
 		F8CD9C402212272300271E1F /* ChecklistTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTodo.swift; sourceTree = "<group>"; };
 		F8CD9C4222123AE000271E1F /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
-		F8CD9C442212468F00271E1F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				18FE2F5A447F8B9A71B5AF79 /* Pods-RWTableView.debug.xcconfig */,
 				A803742DBEC50E21455E417C /* Pods-RWTableView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -108,7 +105,6 @@
 				F862A5742215ED9B00A822A2 /* Views */,
 				F8CD9C492214949600271E1F /* View Controllers */,
 				F8CD9C462213877B00271E1F /* Model */,
-				F8CD9C45221246E000271E1F /* Documentation */,
 				F8CD9C3B2211FFC100271E1F /* Set and Forget */,
 			);
 			path = RWTableView;
@@ -124,15 +120,6 @@
 				F8CD9C342211ECFA00271E1F /* Info.plist */,
 			);
 			path = "Set and Forget";
-			sourceTree = "<group>";
-		};
-		F8CD9C45221246E000271E1F /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				F8CD9C442212468F00271E1F /* README.md */,
-				F8CD9C3A2211ED0D00271E1F /* TODO.md */,
-			);
-			path = Documentation;
 			sourceTree = "<group>";
 		};
 		F8CD9C462213877B00271E1F /* Model */ = {
