@@ -325,7 +325,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZeJ-4X-eHJ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IrG-jD-1Dp"/>
+                    <navigationItem key="navigationItem" id="IrG-jD-1Dp">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="psA-qn-XUO">
+                            <connections>
+                                <segue destination="B8A-Ip-dsf" kind="show" identifier="ShowHomeSegue" id="YuM-45-N06"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ej-2s-gxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -353,6 +359,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="5rK-WB-k3h"/>
         <segue reference="3Ar-sT-bOj"/>
-        <segue reference="GEE-t6-nFg"/>
+        <segue reference="YuM-45-N06"/>
     </inferredMetricsTieBreakers>
 </document>
