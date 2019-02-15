@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseAuth
 
 class StartViewController: UIViewController {
 
@@ -18,6 +21,12 @@ class StartViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool){
+//        super.viewDidAppear(animated)
+//        if Auth.auth().currentUser != nil {
+//            self.performSegue(withIdentifier: "ShowHomeSegue", sender: nil)
+//        }
+    }
 
     /*
     // MARK: - Navigation

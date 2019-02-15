@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseCore
+import FirebaseAuth
 
 class ChecklistViewController: UITableViewController {
 
@@ -211,6 +214,20 @@ class ChecklistViewController: UITableViewController {
         }
         return title
     }
+    @IBAction func signOutButton(_ sender: Any) {
+        
+        do {
+            try Auth.auth().signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let initial = storyboard.instantiateInitialViewController()
+        UIApplication.shared.keyWindow?.rootViewController = initial
+    }
+    
+
     
 }
 

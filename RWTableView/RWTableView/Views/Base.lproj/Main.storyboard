@@ -77,6 +77,7 @@
                             </barButtonItem>
                             <barButtonItem title="Sign Out" id="Vd2-lE-jMP">
                                 <connections>
+                                    <action selector="signOutButton:" destination="B8A-Ip-dsf" id="9Gi-pJ-Fdn"/>
                                     <segue destination="sNS-xQ-1rD" kind="show" id="5rK-WB-k3h"/>
                                 </connections>
                             </barButtonItem>
