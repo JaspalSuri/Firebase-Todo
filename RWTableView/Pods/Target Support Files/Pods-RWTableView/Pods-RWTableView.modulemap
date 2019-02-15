@@ -1,0 +1,6 @@
+framework module Pods_RWTableView {
+  umbrella header "Pods-RWTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
